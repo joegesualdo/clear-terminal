@@ -13,10 +13,5 @@ var clearTerminal = require("clear-terminal")
 clearTerminal()
 ```
 
-## Test 
-```
-$ npm test
-```
-
 ## License
 MIT © [Joe Gesualdo]()
