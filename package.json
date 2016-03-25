@@ -1,0 +1,25 @@
+{
+  "name": "clear-terminal",
+  "version": "0.0.1",
+  "description": "Clear a terminal screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": "joegesualdo/clear-terminal",
+  "keywords": [
+    "terminal",
+    "clear",
+    "empty",
+    "screen"
+  ],
+  "author": {
+    "name": "Joe Gesualdo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {}
+}
