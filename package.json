@@ -1,6 +1,6 @@
 {
   "name": "clear-terminal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clear a terminal screen.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
     "mocha": "*",
     "chai": "*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "control-sequence-introducer": "0.0.2",
+    "terminal-escape-char": "0.0.1"
+  }
 }

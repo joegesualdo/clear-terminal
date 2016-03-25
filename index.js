@@ -1,25 +1,17 @@
 "use strict";
-
-function csi() {
-  // Escape characters are represented by decimal 27 and \u001b is the unicode equivalent
-  var escapeCharacter = "\u001b"
-  console.log(escapeCharacter)
-  var controlSequenceIntroducer = escapeCharacter + "[";
-  // alias
-  return controlSequenceIntroducer;
-}
+var csi = require("control-sequence-introducer")
 
 // Code String
 function clearToEndOfScreenString() {
-  return csi() + "0" + "J"
+  return csi + "0" + "J"
 }
 
 function clearToBegOfScreenString() {
-  return csi() + "1" + "J"
+  return csi + "1" + "J"
 }
 
 function clearScreenString() {
-  return csi() + "2" + "J"
+  return csi + "2" + "J"
 }
 
 function clearToEndOfScreen() {
